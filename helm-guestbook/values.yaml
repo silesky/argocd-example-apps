@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: sethsil/demo
   tag: latest
-  pullPolicy: IfNotPresent
+  # pullPolicy: IfNotPresent -- always uses latest
 
 service:
   type: ClusterIP
